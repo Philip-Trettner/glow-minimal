@@ -52,6 +52,8 @@ add_subdirectory(extern/glow-extras)
 file(GLOB_RECURSE SOURCES
     "src/*.cc"
     "src/*.hh"
+    "src/*.fsh"
+    "src/*.vsh"
 )
 
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${SOURCES})
